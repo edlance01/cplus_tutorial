@@ -23,8 +23,8 @@ int main()
   cout << str3 << endl;
   cout << str4 << endl;
 
-  //std::string str5 = R"(string with \backslash)";
-  std::string str5 = "(string with \backslash)";
+  //std::string str5 = R"(string with \backslash)";  //came out after 11  
+  std::string str5 = "(string with \\backslash)";
   std::cout << str5 << std::endl; // Output: string with \backslash
   // TODO: should this one work?
   //string str6 = R"&%$(string with \backslash)&%$"; 
